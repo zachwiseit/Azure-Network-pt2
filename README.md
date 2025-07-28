@@ -29,58 +29,57 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-1
+1 Opening up the Internet Protocol you can see the source becomes the Linux VM and the destination is the Windows VM. 
+  This will be the process for all the pings afrer. 
 <p>
 <p>
 <img <img width="1440" alt="ACN_101" src="https://github.com/user-attachments/assets/cad3752c-9778-42ca-8284-0136b0771a62" />
 </p>
 <p>
-2
+2 Next we are going to configure a fire wall. 
+  First step in the Windows Vm we are going to do a perpetual ping in powershell. 
+  Like before ping the private IP address of the linux computer with a -t at the end and it enter. 
 <p>
 <img <img width="1440" alt="ACN_102" src="https://github.com/user-attachments/assets/4ea9d8bf-75df-4ecc-a8bf-dba3e67caf7f" />
 </p>
 <p>
-3
+3 As you will begin to see this ping will be nonstop. 
 <p>
 <img <img width="1440" alt="ACN_103" src="https://github.com/user-attachments/assets/5c3576df-80e9-4e40-b723-7869f508958b" />
 </p>
 <p>
-4
+4 You will also be able to see this being captured in Wireshark as well. 
 <p>
 <img <img width="1440" alt="ACN_104" src="https://github.com/user-attachments/assets/f5cad6a3-1b90-4d53-9c4b-39e43b442fbd" />
 </p>
 <p>
-5
+5 For another example click the green shark fin again and "Continue without Saving". 
 <p>
 <img <img width="1440" alt="ACN_105" src="https://github.com/user-attachments/assets/8c51d03b-d21c-4e96-b6be-18b70f9612f2" />
 </p>
 <p>
-6
+6 The pings will continue to request and reply. 
 <p>
 <img <img width="1440" alt="ACN_106" src="https://github.com/user-attachments/assets/5be16917-fb9b-4036-8224-bedf6f126b71" />
 </p>
 <p>
-7
+7 Now we are going to go back into azure and configure the firewall to disable incoming ICMP traffic. 
+  Go to Virtual machines and click the "Linux-vm".
 <p>
 <img <img width="1440" alt="ACN_107" src="https://github.com/user-attachments/assets/c43dbfed-2f81-4b29-b0df-38a5f081330a" />
 </p>
 <p>
-8
-<p>
-<img <img width="1440" alt="ACN_108" src="https://github.com/user-attachments/assets/3dddbb33-64f7-479a-9000-657ef4344f93" />
-</p>
-<p>
-9
+9 Click the drop down arroe for Networking and then click "Network settings". 
 <p>
 <img <img width="1440" alt="ACN_109" src="https://github.com/user-attachments/assets/6d2d7ac0-c625-4b4b-954c-40565779d41f" />
 </p>
 <p>
-10
+10 Scroll down and click "Linux-vm-nsg" under Network security group. 
 <p>
 <img <img width="1440" alt="ACN_110" src="https://github.com/user-attachments/assets/3e456a0e-c70d-4a04-8d82-a9087b100ec4" />
 </p>
 <p>
-11
+11 
 <p>
 <img <img width="1440" alt="ACN_111" src="https://github.com/user-attachments/assets/b34dfe40-2453-4b98-a7ca-0e92b80bac2f" />
 </p>
