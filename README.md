@@ -74,62 +74,57 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_109" src="https://github.com/user-attachments/assets/6d2d7ac0-c625-4b4b-954c-40565779d41f" />
 </p>
 <p>
-10 Scroll down and click "Linux-vm-nsg" under Network security group. 
+10 Scroll down and click "Linux-vm-nsg" under Network security group. (aka the firewall)
 <p>
 <img <img width="1440" alt="ACN_110" src="https://github.com/user-attachments/assets/3e456a0e-c70d-4a04-8d82-a9087b100ec4" />
 </p>
 <p>
-11 
-<p>
-<img <img width="1440" alt="ACN_111" src="https://github.com/user-attachments/assets/b34dfe40-2453-4b98-a7ca-0e92b80bac2f" />
-</p>
-<p>
-12
+12 Here go to settings on the left and click "Inbaound security rules". 
 <p>
 <img <img width="1440" alt="ACN_112" src="https://github.com/user-attachments/assets/4c90ea8b-42ef-4e01-8eb6-5e5b3b44dc68" />
 </p>
 <p>
-13
+13 Now we are going to create a rule for traffic comming inbound to the virtual machine. 
+   Click "Add".  
 <p>
 <img <img width="1440" alt="ACN_113" src="https://github.com/user-attachments/assets/4f746567-060a-4896-9098-fd97a1728631" />
 </p>
 <p>
-14
-<p>
-<img <img width="1440" alt="ACN_114" src="https://github.com/user-attachments/assets/16055d77-9b0b-4463-8f17-2a9196085940" />
-</p>
-<p>
-15
+15 Source: Any 
+   Destination: Any 
+   Service: Custom 
+   Destination port ranges: Use an * (ICMP doesn't have a port).
+   Protocol: ICMPv4
+   Action: Deny
+   Priority: 290 (This will make so this rule is evaluated first.)
+   Now click "Add" 
 <p>
 <img <img width="1440" alt="ACN_115" src="https://github.com/user-attachments/assets/02046a62-0fe1-410c-b82f-4ef409e2cd2a" />
 </p>
 <p>
-16
+16 Now your rule has been added to the Inbound security rules. 
 <p>
 <img <img width="1440" alt="ACN_116" src="https://github.com/user-attachments/assets/aa70ca03-3fb2-4430-b05d-6cc9ffb018c6" />
 </p>
 <p>
-17
+17 Back in the Windows VM the pings will keep coming until the rule takes affect. 
+   Once it does you will see "Request timed out" in Powershell for any incoming ICMP traffic. 
 <p>
 <img <img width="1440" alt="ACN_117" src="https://github.com/user-attachments/assets/7fef13f2-33c9-46b7-80f6-7b60028332a9" />
 </p>
 <p>
-18
-<p>
-<img <img width="1440" alt="ACN_118" src="https://github.com/user-attachments/assets/cf31e2f8-09c7-41c4-8212-839690c0d9a0" />
-</p>
-<p>
-19
+19 If you go back to Wireshark instead of seeign request and reply you will only see request and no response found. 
 <p>
 <img <img width="1440" alt="ACN_119" src="https://github.com/user-attachments/assets/c661969c-3e99-476a-b460-811d6186fb0a" />
 </p>
 <p>
-20
+20 Now we are going to re-enable ICMP traffic in the network settings. 
+   Go back int azure go to virtal machines > Linux-vm > Network settings > Linux-vm-nsg and click Inbound Security rules. 
 <p>
 <img <img width="1440" alt="ACN_120" src="https://github.com/user-attachments/assets/d20fe1ea-5208-4a8b-a2b9-02c1081de85b" />
 </p>
 <p>
-21
+21 
 <p>
 <img <img width="1440" alt="ACN_121" src="https://github.com/user-attachments/assets/6031ca4a-c2f4-4f4c-b0f3-876c22d3f95f" />
 </p>
