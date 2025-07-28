@@ -124,47 +124,43 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_120" src="https://github.com/user-attachments/assets/d20fe1ea-5208-4a8b-a2b9-02c1081de85b" />
 </p>
 <p>
-21 
+21 From here we are going to Delete this rule 
+   Click the trash can on the right for the rule we created. 
 <p>
 <img <img width="1440" alt="ACN_121" src="https://github.com/user-attachments/assets/6031ca4a-c2f4-4f4c-b0f3-876c22d3f95f" />
 </p>
 <p>
-22
+22 Click "Yes". 
 <p>
 <img <img width="1440" alt="ACN_122" src="https://github.com/user-attachments/assets/8297f780-ba38-4259-82f4-bbae91950bd7" />
 </p>
 <p>
-23
+23 With that rule deleted go back to the Windows VM. 
 <p>
 <img <img width="1440" alt="ACN_123" src="https://github.com/user-attachments/assets/90f26527-7099-4969-96ea-39f367fd14df" />
 </p>
 <p>
-24
-<p>
-<img <img width="1440" alt="ACN_124" src="https://github.com/user-attachments/assets/346334d3-5fd0-457e-b9ba-a4d282f3ac3c" />
-</p>
-<p>
-25
+25 In Wireshark you will notice the incoming traffic has gpone back to request and reply between the two VM's. 
 <p>
 <img <img width="1440" alt="ACN_125" src="https://github.com/user-attachments/assets/026b9464-ddd1-4cc0-84a7-3ad645b4d864" />
 </p>
 <p>
-26
+26 The same for Powershell will go from timed out back to continued replies. 
 <p>
 <img <img width="1440" alt="ACN_126" src="https://github.com/user-attachments/assets/0acafdb6-a554-4cc3-b9b5-486722697303" />
 </p>
 <p>
-27
+27 Now we can stop this ping activity and in power shell clicking Control c will do just that. 
 <p>
 <img <img width="1440" alt="ACN_127" src="https://github.com/user-attachments/assets/19be2a71-6ab7-419e-b611-dbac83a41e73" />
 </p>
 <p>
-28
+28 Will stop the Wirshark as well by click the red box in the top left to "Stop capturing packets". 
 <p>
 <img <img width="1440" alt="ACN_128" src="https://github.com/user-attachments/assets/b3bc9db9-5b8c-47f9-a3c4-ab017d5d1933" />
 </p>
 <p>
-29
+29 
 <p>
 <img <img width="1440" alt="ACN_129" src="https://github.com/user-attachments/assets/c98e0771-4405-4a34-b302-815d8a426de7" />
 </p>
