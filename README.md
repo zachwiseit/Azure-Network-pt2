@@ -271,17 +271,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_154" src="https://github.com/user-attachments/assets/38a157ed-8f84-4d4c-965e-8db5c275cb72" />
 </p>
 <p>
-58
+58 Now just as another example in Powershell type "pwd" (Print Working Directory) and press enter. 
 <p>
 <img <img width="1440" alt="ACN_158" src="https://github.com/user-attachments/assets/d9187105-ea6d-4b78-9215-667687aa78ee" />
 </p>
 <p>
-59
+59 THat command shows that the current shell is home/labuser.
 <p>
 <img <img width="1440" alt="ACN_159" src="https://github.com/user-attachments/assets/b330c6f3-ba54-4bfb-b9b7-7f73955d7102" />
 </p>
 <p>
-60
+60 
 <p>
 <img <img width="1440" alt="ACN_160" src="https://github.com/user-attachments/assets/e108f79a-2ce1-462e-8525-83fe9ddacd5a" />
 </p>
