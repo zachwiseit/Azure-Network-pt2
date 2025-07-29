@@ -206,17 +206,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_140" src="https://github.com/user-attachments/assets/143ab3c9-1cda-4178-976d-eacf4ebe174a" />
 </p>
 <p> 
-41 
+41 Now type in the password for the Linux vm user and press enter 
+   (You wont be able to see it because it is encrypted but the txt is there.)
 <p>
 <img <img width="1440" alt="ACN_141" src="https://github.com/user-attachments/assets/9c3de0d5-df01-496e-a34b-4ad793e5705b" />
 </p>
 <p>
-42
+42 Then you will see something like labuser@linux-vm. Now you are actually connected to the Linux machine. 
 <p>
 <img <img width="1440" alt="ACN_142" src="https://github.com/user-attachments/assets/c989af3d-46e3-4818-a9e5-d45e6bca7741" />
 </p>
 <p>
-43
+43 
 <p>
 <img <img width="1440" alt="ACN_143" src="https://github.com/user-attachments/assets/0725eab7-e494-4f98-a97b-1c1aefa2e667" />
 </p>
