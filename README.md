@@ -323,43 +323,46 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_170" src="https://github.com/user-attachments/assets/037679a2-85a7-4d30-8a7a-b80f97253839" />
 </p>
 <p>
-71
+71 Then you will see in Powershell that the connection is closed and on Wireshark as well. 
 <p>
 <img <img width="1440" alt="ACN_171" src="https://github.com/user-attachments/assets/9ac13088-1b54-4a41-bc2d-2d9dc0725db0" />
 </p>
 <p>
-72
+72 To test this type "hostname" and press enter. 
+   Then you will be back in the Windows-vm. 
 <p>
 <img <img width="1440" alt="ACN_172" src="https://github.com/user-attachments/assets/4cf8db8d-477d-4ff8-bf6b-86b156c32f7c" />
 </p>
 <p>
-73
-<p>
+73 A better image for Wireshark showing from the windows computer to the linux computer that the packet was sent 
+   (Essentially stating that there is no longer a connection.)
+<p> 
 <img <img width="1440" alt="ACN_173" src="https://github.com/user-attachments/assets/d366005f-0749-4474-8d04-0e9cbc3485ce" />
 </p>
 <p>
-74
+74 Clear out the filter an dpress enter. 
 <p>
 <img <img width="1440" alt="ACN_174" src="https://github.com/user-attachments/assets/6bf2133f-6e43-4df7-a2cc-6ccdb1b28d41" />
 </p>
 <p>
-75
+75 Now type "dhcp" in the bar and press enter 
 <p>
 <img <img width="1440" alt="ACN_175" src="https://github.com/user-attachments/assets/ba06d142-6d03-43a0-9d21-5349e3a41714" />
 </p>
 <p>
-76
+76 You wont see any traffic at first. 
 <p>
 <img <img width="1440" alt="ACN_176" src="https://github.com/user-attachments/assets/f56a43b4-f51f-4288-87af-2a6455deab48" />
 </p>
 <p>
-77
+77 Go back into Powershell and type "ipconfig /renew" and press enter. 
+   This command will drop the IP address that this cpomputer and automatically broadcast for a new one. 
 <p>
 <img <img width="1440" alt="ACN_177" src="https://github.com/user-attachments/assets/1025250a-25f6-4ada-ae07-355e0d7b26fd" />
 </p>
 <p>
-78
-<p>
+78  
+<p> 
 <img <img width="1440" alt="ACN_178" src="https://github.com/user-attachments/assets/b3d42419-273e-445b-9570-f765d7ad7ed5" />
 </p>
 <p>
