@@ -212,37 +212,37 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_141" src="https://github.com/user-attachments/assets/9c3de0d5-df01-496e-a34b-4ad793e5705b" />
 </p>
 <p>
-42 Then you will see something like labuser@linux-vm. Now you are actually connected to the Linux machine. 
+42 Then you will see something like labuser@linux-vm. Now you are actually connected inside the Linux machine. 
 <p>
 <img <img width="1440" alt="ACN_142" src="https://github.com/user-attachments/assets/c989af3d-46e3-4818-a9e5-d45e6bca7741" />
 </p>
 <p>
-43 
+43 As an example type "id" and press enter. 
 <p>
 <img <img width="1440" alt="ACN_143" src="https://github.com/user-attachments/assets/0725eab7-e494-4f98-a97b-1c1aefa2e667" />
 </p>
 <p>
-44
+44 This will show the linux user id. 
 <p>
 <img <img width="1440" alt="ACN_144" src="https://github.com/user-attachments/assets/63138b81-60aa-409a-93c5-a853a4f7a1bb" />
 </p>
 <p>
-45
+45 IF we type "hostname" and press enter
 <p>
 <img <img width="1440" alt="ACN_145" src="https://github.com/user-attachments/assets/960f435d-6520-47be-bb7f-33f0bfd80579" />
 </p>
 <p>
-46
+46 The hostname you made for the linux machine will pop up. 
 <p>
 <img <img width="1440" alt="ACN_146" src="https://github.com/user-attachments/assets/264554f5-0f51-47a0-86c2-4c64bc883a4f" />
 </p>
 <p>
-47
+47 If you want to try this type "uname -a" and press enter. 
 <p>
 <img <img width="1440" alt="ACN_147" src="https://github.com/user-attachments/assets/671a0045-ac2b-4aa2-acf6-112da09731ba" />
 </p>
 <p>
-48
+48 THis will show information about the operating system on the Linux Machine.
 <p>
 <img <img width="1440" alt="ACN_148" src="https://github.com/user-attachments/assets/cbb6f972-173d-4680-9bd0-7eb7b33d6128" />
 </p>
