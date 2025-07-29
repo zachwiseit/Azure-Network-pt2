@@ -403,16 +403,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_190" src="https://github.com/user-attachments/assets/61210461-2f5a-4efc-9c98-785e9e9e44aa" />
 </p>
 <p>
-91
-<p>
-<img <img width="1440" alt="ACN_191" src="https://github.com/user-attachments/assets/d70dc7d7-6bdf-4487-b153-84c130fa7bf0" />
-</p>
-<p>
-92
-<p>
-<img <img width="1440" alt="ACN_192" src="https://github.com/user-attachments/assets/9c2dd6ce-6c51-4ec9-b803-767d6e9f38a8" />
-</p>
-<p>
 93
 <p>
 <img <img width="1440" alt="ACN_193" src="https://github.com/user-attachments/assets/ef600f6a-c058-4625-86c0-0602161ae31f" />
