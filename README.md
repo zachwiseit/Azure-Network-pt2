@@ -150,77 +150,63 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_126" src="https://github.com/user-attachments/assets/0acafdb6-a554-4cc3-b9b5-486722697303" />
 </p>
 <p>
-27 Now we can stop this ping activity and in power shell clicking Control c will do just that. 
+27 Now we can stop this ping activity in powershell by clicking Control c will and it will stop. 
 <p>
 <img <img width="1440" alt="ACN_127" src="https://github.com/user-attachments/assets/19be2a71-6ab7-419e-b611-dbac83a41e73" />
 </p>
 <p>
-28 Will stop the Wirshark as well by click the red box in the top left to "Stop capturing packets". 
+28 Next stop the Wirshark as well by click the red box in the top left to "Stop capturing packets". 
 <p>
 <img <img width="1440" alt="ACN_128" src="https://github.com/user-attachments/assets/b3bc9db9-5b8c-47f9-a3c4-ab017d5d1933" />
 </p>
 <p>
-29 
+29 In the Windows VM we are going to observer SSH (Secure Shell Protocol). 
 <p>
 <img <img width="1440" alt="ACN_129" src="https://github.com/user-attachments/assets/c98e0771-4405-4a34-b302-815d8a426de7" />
 </p>
 <p>
-30
-<p>
-<img <img width="1440" alt="ACN_130" src="https://github.com/user-attachments/assets/089c8843-0236-4b17-9f2f-2cf12172eb66" />
-</p>
-<p>
-31
-<p>
-<img <img width="1440" alt="ACN_131" src="https://github.com/user-attachments/assets/6c2719ae-8848-4c5e-82f1-4a64ccb8597d" />
-</p>
-<p>
-32
+32 First, open up wireshark if it isnt and click "Ethernet" then click the blue shark fin to start a new packet captrue and you will see the spam.  
 <p>
 <img <img width="1440" alt="ACN_132" src="https://github.com/user-attachments/assets/7b9fbbe3-b71d-4409-8a0c-5e7bcaa96bbc" />
 </p>
 <p>
-33
+33 We need the private IP address for the Linux VM. Go back the the Virtial machines in Azure and click "Linux-vm".
 <p>
 <img <img width="1440" alt="ACN_133" src="https://github.com/user-attachments/assets/6814b672-a72f-48f4-9fab-220c87029628" />
 </p>
 <p>
-34
+34 In Overview scroll down to the private IP address and copy it. 
 <p>
 <img <img width="1440" alt="ACN_134" src="https://github.com/user-attachments/assets/1f98131a-3e22-42c4-9a68-0674fe764d63" />
 </p>
 <p>
-35
+35 Open up Powershell. 
 <p>
 <img <img width="1440" alt="ACN_135" src="https://github.com/user-attachments/assets/55d1ea11-a9f2-41f9-a587-6f195eaeb613" />
 </p>
 <p>
-36
-<p>
-<img <img width="1440" alt="ACN_136" src="https://github.com/user-attachments/assets/f32ba077-b447-45b5-9ff2-d21e225ebf9a" />
-</p>
-<p>
-37
+37 Go back to Wireshark filter for SSH traffic. 
 <p>
 <img <img width="1440" alt="ACN_137" src="https://github.com/user-attachments/assets/95c04c75-0558-4e5c-a3a0-f796442eb15e" />
 </p>
 <p>
-38
+38 Back in Powershell type "ssh labuser@<private IP address> and press enter. 
 <p>
 <img <img width="1440" alt="ACN_138" src="https://github.com/user-attachments/assets/61801b9c-aaa8-4307-803d-cba3f8fe1edb" />
 </p>
 <p>
-39
+39 This will generate ssh traffic. 
+   In Powershell you will also be asked "Are you syre you want to continue connecting."
 <p>
 <img <img width="1440" alt="ACN_139" src="https://github.com/user-attachments/assets/9ae66e10-8421-40e5-bf5a-a0a99492136d" />
 </p>
 <p>
-40
+40 Type yes and press enter. 
 <p>
 <img <img width="1440" alt="ACN_140" src="https://github.com/user-attachments/assets/143ab3c9-1cda-4178-976d-eacf4ebe174a" />
 </p>
-<p>
-41
+<p> 
+41 
 <p>
 <img <img width="1440" alt="ACN_141" src="https://github.com/user-attachments/assets/9c3de0d5-df01-496e-a34b-4ad793e5705b" />
 </p>
