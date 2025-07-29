@@ -265,29 +265,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_152" src="https://github.com/user-attachments/assets/80d3f500-01ca-4f59-bfa5-d6c6ceaf3246" />
 </p>
 <p>
-53 
-<p>
-<img <img width="1440" alt="ACN_153" src="https://github.com/user-attachments/assets/93e32906-f93d-4e2c-b0f0-8e6c9db20943" />
-</p>
-<p>
-54
+54 Now click "SSH Protocol", "SSH Version 2", and "Encrypted Packet". 
+   In the box to the right that is the information from you typing but because of the encryption it wont show exactly what that was. 
 <p>
 <img <img width="1440" alt="ACN_154" src="https://github.com/user-attachments/assets/38a157ed-8f84-4d4c-965e-8db5c275cb72" />
-</p>
-<p>
-55
-<p>
-<img <img width="1440" alt="ACN_155" src="https://github.com/user-attachments/assets/6a118f92-38c2-4f04-8ae4-05659d6f390d" />
-</p>
-<p>
-56
-<p>
-<img <img width="1440" alt="ACN_156" src="https://github.com/user-attachments/assets/dc085477-4380-41b5-b8dc-3052df27330e" />
-</p>
-<p>
-57
-<p>
-<img <img width="1440" alt="ACN_157" src="https://github.com/user-attachments/assets/98ae4976-1485-4ffa-8a98-a258b9b5a5e1" />
 </p>
 <p>
 58
