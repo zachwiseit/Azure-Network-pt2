@@ -257,12 +257,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_150" src="https://github.com/user-attachments/assets/61188719-1e65-4714-8777-90fcc0bc8586" />
 </p>
 <p>
-52
+52 Now just because everything is captured that doesn't mean you can see it.
+   All of SSH traffic is encrypted. 
+   For example type "hi" (or something similar) aand press ent. 
+   Then click on the packet created from it. 
 <p>
 <img <img width="1440" alt="ACN_152" src="https://github.com/user-attachments/assets/80d3f500-01ca-4f59-bfa5-d6c6ceaf3246" />
 </p>
 <p>
-53
+53 
 <p>
 <img <img width="1440" alt="ACN_153" src="https://github.com/user-attachments/assets/93e32906-f93d-4e2c-b0f0-8e6c9db20943" />
 </p>
