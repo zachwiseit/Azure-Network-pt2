@@ -296,37 +296,29 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_163" src="https://github.com/user-attachments/assets/14f52435-afc0-4622-8e61-f0b30313f371" />
 </p>
 <p>
-64 
+64 Take a away the SSH filter, and restart the package capture. 
 <p>
 <img <img width="1440" alt="ACN_164" src="https://github.com/user-attachments/assets/35edf31e-f940-4895-935e-90557c35db85" />
 </p>
 <p>
-65
-<p>
-<img <img width="1440" alt="ACN_165" src="https://github.com/user-attachments/assets/40012e66-3ff8-42a7-9ac8-b149a0d4a9b3" />
-</p>
-<p>
-66
+66 (This is another filter example.) Type in "tcp.port==22" and press enter.
+   THis will filter out all the traffic that uses tcp port 22. 
 <p>
 <img <img width="1440" alt="ACN_166" src="https://github.com/user-attachments/assets/f6750cbe-58f4-4472-860f-748d99f36a1a" />
 </p>
 <p>
-67
+67 If you go back into Powershell and type "ls" and hit enter. 
 <p>
 <img <img width="1440" alt="ACN_167" src="https://github.com/user-attachments/assets/78f3ae4a-9e27-434a-90ca-63a4de223ea6" />
 </p>
 <p>
-68
-<p>
-<img <img width="1440" alt="ACN_168" src="https://github.com/user-attachments/assets/fd8cade8-8a7b-4c78-abd7-9abbed124795" />
-</p>
-<p>
-69
+69 With the fact that ssh uses tcp port 22 you will see that traffic being filtered out. 
+   An example instead of typing ssh you can type out the whole filter. 
 <p>
 <img <img width="1440" alt="ACN_169" src="https://github.com/user-attachments/assets/0126eb75-0e29-40d6-9c66-c0323a382f02" />
 </p>
 <p>
-70
+70 Back int Powershell exit the SSH connection by typing "exit" and pressing enter. 
 <p>
 <img <img width="1440" alt="ACN_170" src="https://github.com/user-attachments/assets/037679a2-85a7-4d30-8a7a-b80f97253839" />
 </p>
