@@ -357,31 +357,34 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 77 Go back into Powershell and type "ipconfig /renew" and press enter. 
    This command will drop the IP address that this cpomputer and automatically broadcast for a new one. 
+   The discover and offer didn't appear so we are going to try a different filter. 
 <p>
 <img <img width="1440" alt="ACN_177" src="https://github.com/user-attachments/assets/1025250a-25f6-4ada-ae07-355e0d7b26fd" />
 </p>
 <p>
-78  
+78 type in "udp.port==67||udp.port==68" and press enter.  
 <p> 
 <img <img width="1440" alt="ACN_178" src="https://github.com/user-attachments/assets/b3d42419-273e-445b-9570-f765d7ad7ed5" />
 </p>
 <p>
-79
+79 In Powershell type "ipconfig /renew" and enter. 
+   This didnt work either so we will try one more thing. 
 <p>
 <img <img width="1440" alt="ACN_179" src="https://github.com/user-attachments/assets/be6cc4c2-28f5-4c8b-a610-34fce4df1ff3" />
 </p>
 <p>
-80
+80 Open up Notepad. 
 <p>
 <img <img width="1440" alt="ACN_180" src="https://github.com/user-attachments/assets/073dc90a-07a0-45cf-b0a7-8a71db9b0883" />
 </p>
 <p>
-81
+81 type "ipconfig /release" then underneath ipconfig /renw".     
 <p>
 <img <img width="1440" alt="ACN_181" src="https://github.com/user-attachments/assets/3850f32e-aa5b-495c-a2f4-0e0f3fe86d99" />
 </p>
 <p>
-82
+82 Now click "File" and "Save As".
+   Under This PC click "Documents" 
 <p>
 <img <img width="1440" alt="ACN_182" src="https://github.com/user-attachments/assets/8faf78aa-5ab2-4a89-9513-7d3a669985e7" />
 </p>
