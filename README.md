@@ -388,6 +388,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_183" src="https://github.com/user-attachments/assets/104ea3ba-39a8-4f28-b36f-8951a8552cf8" />
 </p>
 <p>
+95
+<p>
+<img <img width="1440" alt="ACN_195" src="https://github.com/user-attachments/assets/5eb12ef4-aaf1-41f6-b806-28eb8b55394d" />
+</p>
+<p>
+97
+<p>
+<img <img width="1440" alt="ACN_197" src="https://github.com/user-attachments/assets/051c7820-94fa-4799-9272-bb91588ea013" />
+</p>
+<p>
 85
 <p>
 <img <img width="1440" alt="ACN_185" src="https://github.com/user-attachments/assets/00d63d3b-b1e2-43e8-a573-e29eb532f135" />
@@ -401,16 +411,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 90
 <p>
 <img <img width="1440" alt="ACN_190" src="https://github.com/user-attachments/assets/61210461-2f5a-4efc-9c98-785e9e9e44aa" />
-</p>
-<p>
-95
-<p>
-<img <img width="1440" alt="ACN_195" src="https://github.com/user-attachments/assets/5eb12ef4-aaf1-41f6-b806-28eb8b55394d" />
-</p>
-<p>
-97
-<p>
-<img <img width="1440" alt="ACN_197" src="https://github.com/user-attachments/assets/051c7820-94fa-4799-9272-bb91588ea013" />
 </p>
 <p>
 98
