@@ -276,32 +276,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_158" src="https://github.com/user-attachments/assets/d9187105-ea6d-4b78-9215-667687aa78ee" />
 </p>
 <p>
-59 THat command shows that the current shell is home/labuser.
+59 That command shows that the current shell is home/labuser.
 <p>
 <img <img width="1440" alt="ACN_159" src="https://github.com/user-attachments/assets/b330c6f3-ba54-4bfb-b9b7-7f73955d7102" />
 </p>
 <p>
-60 
+60 You can also try the command "touch file.txt" an press enter. This will create a file on the linux machine. 
 <p>
 <img <img width="1440" alt="ACN_160" src="https://github.com/user-attachments/assets/e108f79a-2ce1-462e-8525-83fe9ddacd5a" />
 </p>
 <p>
-61
-<p>
-<img <img width="1440" alt="ACN_161" src="https://github.com/user-attachments/assets/25f9f9bc-cfb3-49a9-8b19-73f07c049d69" />
-</p>
-<p>
-62
+62 If you type "ls" and press enter it will show you the file.txt was created. 
 <p>
 <img <img width="1440" alt="ACN_162" src="https://github.com/user-attachments/assets/57c39ccf-7539-4281-8675-bef2ed7c8151" />
 </p>
 <p>
-63
+63 As you are doing this you will be able to see all the SSH traffic being captured. 
 <p>
 <img <img width="1440" alt="ACN_163" src="https://github.com/user-attachments/assets/14f52435-afc0-4622-8e61-f0b30313f371" />
 </p>
 <p>
-64
+64 
 <p>
 <img <img width="1440" alt="ACN_164" src="https://github.com/user-attachments/assets/35edf31e-f940-4895-935e-90557c35db85" />
 </p>
