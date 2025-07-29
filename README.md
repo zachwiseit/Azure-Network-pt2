@@ -247,19 +247,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_148" src="https://github.com/user-attachments/assets/cbb6f972-173d-4680-9bd0-7eb7b33d6128" />
 </p>
 <p>
-49
+49 Meanwhile Wirshark has been capturing everything.
 <p>
 <img <img width="1440" alt="ACN_149" src="https://github.com/user-attachments/assets/67261ac0-cabe-40f2-bc21-7ae51fe2e9b0" />
 </p>
 <p>
-50
+50 Even single keystrokes. If you type anything you will see the traffic on the backend. 
 <p>
 <img <img width="1440" alt="ACN_150" src="https://github.com/user-attachments/assets/61188719-1e65-4714-8777-90fcc0bc8586" />
-</p>
-<p>
-51
-<p>
-<img <img width="1440" alt="ACN_151" src="https://github.com/user-attachments/assets/f963d514-12f9-440a-a6c4-7a7bbd3884e5" />
 </p>
 <p>
 52
