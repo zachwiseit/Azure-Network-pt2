@@ -383,72 +383,69 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_181" src="https://github.com/user-attachments/assets/3850f32e-aa5b-495c-a2f4-0e0f3fe86d99" />
 </p>
 <p>
-83
+83 Click "File" and "Save As". 
 <p>
 <img <img width="1440" alt="ACN_183" src="https://github.com/user-attachments/assets/104ea3ba-39a8-4f28-b36f-8951a8552cf8" />
 </p>
 <p>
-95
+95 At the top type "c:\programdata" and hit enter. 
 <p>
 <img <img width="1440" alt="ACN_195" src="https://github.com/user-attachments/assets/5eb12ef4-aaf1-41f6-b806-28eb8b55394d" />
 </p>
 <p>
-97
+97 Name the file "dhcp.bat". Name it exactly this or this will not work. 
 <p>
 <img <img width="1440" alt="ACN_197" src="https://github.com/user-attachments/assets/051c7820-94fa-4799-9272-bb91588ea013" />
 </p>
 <p>
-85
+85 We are going to run that script in Powershell. 
+   In Powershell type "cd c:\programdata" and press enter 
 <p>
 <img <img width="1440" alt="ACN_185" src="https://github.com/user-attachments/assets/00d63d3b-b1e2-43e8-a573-e29eb532f135" />
 </p>
 <p>
-86
+86 Now we are in programdata. Type "ls" (meaning list) and press enter. 
 <p>
 <img <img width="1440" alt="ACN_186" src="https://github.com/user-attachments/assets/8bd0dc46-e09e-456b-8499-ca8a1122a63d" />
 </p>
 <p>
-90
-<p>
-<img <img width="1440" alt="ACN_190" src="https://github.com/user-attachments/assets/61210461-2f5a-4efc-9c98-785e9e9e44aa" />
-</p>
-<p>
-98
+98 At the bottom you will see the file you created. 
 <p>
 <img <img width="1440" alt="ACN_198" src="https://github.com/user-attachments/assets/c4281edf-2012-40d1-b8aa-ea6f2eef5d63" />
 </p>
 <p>
-99
+99 Close notepad
 <p>
 <img <img width="1440" alt="ACN_199" src="https://github.com/user-attachments/assets/44bc1d76-69b8-4eb6-92fe-e21d5dcd2b47" />
 </p>
 <p>
-100
+100 Restart the capture. 
 <p>
 <img <img width="1440" alt="ACN_200" src="https://github.com/user-attachments/assets/778c0104-f918-47c4-a08f-6e277385c21e" />
 </p>
 <p>
-101
+101 In Powershell run ".\dhcp/bat" and press enter. 
+    This script will automatically release the IP address and renew it right away restoring the connection. 
 <p>
 <img <img width="1440" alt="ACN_201" src="https://github.com/user-attachments/assets/a3bc915f-c118-43ab-bba4-79a5d9573029" />
 </p>
 <p>
-102
+102 The connection will die and automatically reconect. 
 <p>
 <img <img width="1440" alt="ACN_202" src="https://github.com/user-attachments/assets/2ff2c51b-0c22-4b34-8ccf-5c1c2d4f3d74" />
 </p>
 <p>
-103
+103 With the connection restored look at Wireshark. 
 <p>
 <img <img width="1440" alt="ACN_203" src="https://github.com/user-attachments/assets/121e3df8-58b7-471c-a094-967aa7d670cc" />
 </p>
 <p>
-104
+104 You can now observe the Release, Discover, Offer, Request, and Acknowledge packets. 
 <p>
 <img <img width="1440" alt="ACN_204" src="https://github.com/user-attachments/assets/66ee6ab3-c550-4ed4-8dcc-72fc5d66762a" />
 </p>
 <p>
-105
+105 
 <p>
 <img <img width="1440" alt="ACN_205" src="https://github.com/user-attachments/assets/8b053cb4-9783-4415-8fef-27c5f47041df" />
 </p>
