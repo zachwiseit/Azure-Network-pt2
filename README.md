@@ -526,11 +526,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 121 Last but not least we are going to observe RDP traffic. 
     Go back to Wireshark
 <p>
-<img <img width="1440" alt="ACN_221" src="https://github.com/user-attachments/assets/2d616759-ad75-4540-82e3-7bd37040d86a" />
+<img <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/76773f5c-a007-4b0b-bc69-5c94342a9a36" />
 </p>
 <p>
 122
 <p>
-<img <img width="1440" alt="ACN_222" src="https://github.com/user-attachments/assets/884a8c22-30ba-4d82-a2eb-ec2ac1c728b0" />
+<img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 15 32 PM" src="https://github.com/user-attachments/assets/4eb0c31a-5c48-482e-be40-bfef02c9f816" />
+</p>
+<p>
+123
+<p>
+<img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 17 09 PM" src="https://github.com/user-attachments/assets/5f18677a-1f5f-4a8a-a4d7-728d10a835aa" />
 </p>
 <p>
