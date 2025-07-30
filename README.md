@@ -523,18 +523,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_220" src="https://github.com/user-attachments/assets/f72e1ace-1835-4287-a931-62f5b10a0539" />
 </p>
 <p>
-121 Last but not least we are going to observe RDP traffic. 
-    Go back to Wireshark
+121 Last but not least we are going to observe RDP(Remote Desktop Protocol) traffic. 
+    Essentially what we have been doing this entire time is an RDP as we have been connecting from our 
+    computer to gain access to another desktop GUI.
+    Go back to Wireshark and filter for "tcp.port==3389".
 <p>
 <img <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/76773f5c-a007-4b0b-bc69-5c94342a9a36" />
 </p>
 <p>
-122
+122 There is a lot of spam initially this is because RDP is constantly streaming an image from the server to your local machine. 
+    Regardless if you press a key, move your mouse, or do nothing at all its still streaming that desktop screen. 
 <p>
 <img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 15 32 PM" src="https://github.com/user-attachments/assets/4eb0c31a-5c48-482e-be40-bfef02c9f816" />
 </p>
 <p>
-123
+123 Its interesting to get a glimps of what is going on in the back end of our VM's.
 <p>
 <img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 17 09 PM" src="https://github.com/user-attachments/assets/5f18677a-1f5f-4a8a-a4d7-728d10a835aa" />
 </p>
