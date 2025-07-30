@@ -470,61 +470,61 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 110 In powershell type in "nslookup disney.com"
+    This will show the IP address for that website. 
 <p>
 <img <img width="1440" alt="ACN_210" src="https://github.com/user-attachments/assets/8e37da63-ed9a-4086-86da-bac58b6ff1a8" />
 </p>
 <p>
-111
+111 The Non-authorative address is the one that dns.com resolves to. 
 <p>
 <img <img width="1440" alt="ACN_211" src="https://github.com/user-attachments/assets/18d693cc-dc08-474a-9eea-3846ab4a2896" />
 </p>
 <p>
-112
-<p>
-<img <img width="1440" alt="ACN_212" src="https://github.com/user-attachments/assets/571c5a31-1c73-472d-a46f-958b7a5711f8" />
-</p>
-<p>
-113
+113 In Wireshark you can see the process for the retrieval of the Disney.com IP address.
 <p>
 <img <img width="1440" alt="ACN_213" src="https://github.com/user-attachments/assets/6b9d1f2b-e0dc-4466-988a-b5e29adaac1d" />
 </p>
 <p>
-114
+114 Essentially DNS translates human readable domain names to IP addresses. This is an example of that. 
+    Go to Microsoft Edge and paste the Disney IP address and press enter. 
 <p>
 <img <img width="1440" alt="ACN_214" src="https://github.com/user-attachments/assets/9e62ffe3-6f46-4ca3-a4c1-bae60e35d9cf" />
 </p>
 <p>
-115
+115 You will get a 404 error but it is still disney's IP address and they added a funny way to state that it is theirs. 
+    The error is normal because most sites cant be reached by putting in their IP address for security reasons. 
 <p>
 <img <img width="1440" alt="ACN_215" src="https://github.com/user-attachments/assets/6e4424e2-dfec-4e46-ab17-24f366253145" />
 </p>
 <p>
-116
+116 Lets try this again except with Pixar. 
+    Use nslookup in Powershell. 
 <p>
 <img <img width="1440" alt="ACN_216" src="https://github.com/user-attachments/assets/a29a4020-5436-40b7-b56e-48edc8a36156" />
 </p>
 <p>
-117
+117 In Wireshark again you will notice the activity on the back end. 
 <p>
 <img <img width="1440" alt="ACN_217" src="https://github.com/user-attachments/assets/c1bdb30a-d29e-4156-bde0-e71d3e8db891" />
 </p>
 <p>
-118
+118 These are the address for Pixar. Copy the first one. 
 <p>
 <img <img width="1440" alt="ACN_218" src="https://github.com/user-attachments/assets/475d7679-2e9f-44a1-b1b2-ee832c396746" />
 </p>
 <p>
-119
+119 Paste it in the browser and search. 
 <p>
 <img <img width="1440" alt="ACN_219" src="https://github.com/user-attachments/assets/0d8de591-3cf6-45d9-8232-6cbf9a7edc07" />
 </p>
 <p>
-120
+120 You should get a error message because as before its unusual gain access to a site by putting in their IP Address. 
 <p>
 <img <img width="1440" alt="ACN_220" src="https://github.com/user-attachments/assets/f72e1ace-1835-4287-a931-62f5b10a0539" />
 </p>
 <p>
-121
+121 Last but not least we are going to observe RDP traffic. 
+    Go back to Wireshark
 <p>
 <img <img width="1440" alt="ACN_221" src="https://github.com/user-attachments/assets/2d616759-ad75-4540-82e3-7bd37040d86a" />
 </p>
