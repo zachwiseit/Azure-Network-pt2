@@ -440,37 +440,36 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_203" src="https://github.com/user-attachments/assets/121e3df8-58b7-471c-a094-967aa7d670cc" />
 </p>
 <p>
-104 You can now observe the Release, Discover, Offer, Request, and Acknowledge packets. 
+104 You can now observe the Release, Discover, Offer, Request, and Acknowledge packets being captured. 
 <p>
 <img <img width="1440" alt="ACN_204" src="https://github.com/user-attachments/assets/66ee6ab3-c550-4ed4-8dcc-72fc5d66762a" />
 </p>
 <p>
-105 
+105 To better explain type "cat .\dhcp.bat" and press enter. 
+    This will show you what is in dhcp.bat
 <p>
 <img <img width="1440" alt="ACN_205" src="https://github.com/user-attachments/assets/8b053cb4-9783-4415-8fef-27c5f47041df" />
 </p>
 <p>
-106
+106 When release from that script occured the release packet was sent from the Windows VM. 
+    Then imediatly after the renew command made the Discover, Offer and other packets happen over the internet. 
 <p>
 <img <img width="1440" alt="ACN_206" src="https://github.com/user-attachments/assets/7bced678-6f44-4efb-b7ce-830d72bfb288" />
 </p>
 <p>
-107
+107 Next we are going to observe dns traffic. 
+    In Wireshark change the filter to dns and press enter. 
+    You can already see activity on the back end but we ar going to add some to identify. 
 <p>
 <img <img width="1440" alt="ACN_207" src="https://github.com/user-attachments/assets/f291b2ff-8cf9-40a9-813f-17f524f023f6" />
 </p>
 <p>
-108
+108 Restart this capture again. 
 <p>
 <img <img width="1440" alt="ACN_208" src="https://github.com/user-attachments/assets/ee5954cc-619f-4672-87a7-199f79fca455" />
 </p>
 <p>
-109
-<p>
-<img <img width="1440" alt="ACN_209" src="https://github.com/user-attachments/assets/3bbf53d6-bcef-417d-980a-15c574d86caf" />
-</p>
-<p>
-110
+110 In powershell type in "nslookup disney.com"
 <p>
 <img <img width="1440" alt="ACN_210" src="https://github.com/user-attachments/assets/8e37da63-ed9a-4086-86da-bac58b6ff1a8" />
 </p>
