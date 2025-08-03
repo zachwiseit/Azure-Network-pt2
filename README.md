@@ -424,7 +424,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_200" src="https://github.com/user-attachments/assets/778c0104-f918-47c4-a08f-6e277385c21e" />
 </p>
 <p>
-101 In Powershell run ".\dhcp/bat" and press enter. 
+101 In Powershell run ".\dhcp.bat" and press enter. 
     This script will automatically release the IP address and renew it right away restoring the connection. 
 <p>
 <img <img width="1440" alt="ACN_201" src="https://github.com/user-attachments/assets/a3bc915f-c118-43ab-bba4-79a5d9573029" />
