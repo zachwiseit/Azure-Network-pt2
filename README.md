@@ -459,7 +459,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 107 Next we are going to observe dns traffic. 
     In Wireshark change the filter to dns and press enter. 
-    You can already see activity on the back end but we ar going to add some to identify. 
+    You can already see activity on the back end but we are going to add some to identify. 
 <p>
 <img <img width="1440" alt="ACN_207" src="https://github.com/user-attachments/assets/f291b2ff-8cf9-40a9-813f-17f524f023f6" />
 </p>
@@ -469,7 +469,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_208" src="https://github.com/user-attachments/assets/ee5954cc-619f-4672-87a7-199f79fca455" />
 </p>
 <p>
-110 In powershell type in "nslookup disney.com"
+110 In powershell type in "nslookup disney.com".
     This will show the IP address for that website. 
 <p>
 <img <img width="1440" alt="ACN_210" src="https://github.com/user-attachments/assets/8e37da63-ed9a-4086-86da-bac58b6ff1a8" />
@@ -492,7 +492,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 115 You will get a 404 error but it is still disney's IP address and they added a funny way to state that it is theirs. 
-    The error is normal because most sites cant be reached by putting in their IP address for security reasons. 
+    The error is normal because most sites can’t be reached by putting in their IP address for security reasons. 
 <p>
 <img <img width="1440" alt="ACN_215" src="https://github.com/user-attachments/assets/6e4424e2-dfec-4e46-ab17-24f366253145" />
 </p>
@@ -518,7 +518,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_219" src="https://github.com/user-attachments/assets/0d8de591-3cf6-45d9-8232-6cbf9a7edc07" />
 </p>
 <p>
-120 You should get a error message because as before its unusual gain access to a site by putting in their IP Address. 
+120 You should get a error message because as before it's unusual gain access to a site by putting in their IP Address. 
 <p>
 <img <img width="1440" alt="ACN_220" src="https://github.com/user-attachments/assets/f72e1ace-1835-4287-a931-62f5b10a0539" />
 </p>
