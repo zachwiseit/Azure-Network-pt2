@@ -37,13 +37,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 2 Next we are going to configure a fire wall. 
-  First step in the Windows Vm we are going to do a perpetual ping in powershell. 
-  Like before ping the private IP address of the linux computer with a -t at the end and it enter. 
+  First, in the Windows Vm we are going to do a perpetual ping in powershell. 
+  Like before ping the private IP address of the linux computer with a -t at the end and press Enter.
 <p>
 <img <img width="1440" alt="ACN_102" src="https://github.com/user-attachments/assets/4ea9d8bf-75df-4ecc-a8bf-dba3e67caf7f" />
 </p>
 <p>
-3 As you will begin to see this ping will be nonstop. 
+3 You will see the ping is continuous.
 <p>
 <img <img width="1440" alt="ACN_103" src="https://github.com/user-attachments/assets/5c3576df-80e9-4e40-b723-7869f508958b" />
 </p>
@@ -69,7 +69,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_107" src="https://github.com/user-attachments/assets/c43dbfed-2f81-4b29-b0df-38a5f081330a" />
 </p>
 <p>
-9 Click the drop down arroe for Networking and then click "Network settings". 
+9 Click the  drop-down arrow for Networking and then click "Network settings". 
 <p>
 <img <img width="1440" alt="ACN_109" src="https://github.com/user-attachments/assets/6d2d7ac0-c625-4b4b-954c-40565779d41f" />
 </p>
@@ -84,7 +84,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_112" src="https://github.com/user-attachments/assets/4c90ea8b-42ef-4e01-8eb6-5e5b3b44dc68" />
 </p>
 <p>
-13 Now we are going to create a rule for traffic comming inbound to the virtual machine. 
+13 Now we are going to create a rule for traffic coming inbound to the virtual machine. 
    Click "Add".  
 <p>
 <img <img width="1440" alt="ACN_113" src="https://github.com/user-attachments/assets/4f746567-060a-4896-9098-fd97a1728631" />
@@ -93,7 +93,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 15 Source: Any 
    Destination: Any 
    Service: Custom 
-   Destination port ranges: Use an * (ICMP doesn't have a port).
+   Destination port ranges: Use an asterisk (*) since ICMP does not use ports.
    Protocol: ICMPv4
    Action: Deny
    Priority: 290 (This will make so this rule is evaluated first.)
@@ -107,19 +107,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_116" src="https://github.com/user-attachments/assets/aa70ca03-3fb2-4430-b05d-6cc9ffb018c6" />
 </p>
 <p>
-17 Back in the Windows VM the pings will keep coming until the rule takes affect. 
+17 Back in the Windows VM the pings will keep coming until the rule takes effect. 
    Once it does you will see "Request timed out" in Powershell for any incoming ICMP traffic. 
 <p>
 <img <img width="1440" alt="ACN_117" src="https://github.com/user-attachments/assets/7fef13f2-33c9-46b7-80f6-7b60028332a9" />
 </p>
 <p>
-19 If you go back to Wireshark instead of seeign request and reply you will only see request and no response found. 
+19 If you go back to Wireshark instead of seeing request and reply you will only see request and no response found. 
 <p>
 <img <img width="1440" alt="ACN_119" src="https://github.com/user-attachments/assets/c661969c-3e99-476a-b460-811d6186fb0a" />
 </p>
 <p>
 20 Now we are going to re-enable ICMP traffic in the network settings. 
-   Go back int azure go to virtal machines > Linux-vm > Network settings > Linux-vm-nsg and click Inbound Security rules. 
+   Go back int Azure go to Virtal Machines > Linux-vm > Network settings > Linux-vm-nsg and click Inbound Security rules. 
 <p>
 <img <img width="1440" alt="ACN_120" src="https://github.com/user-attachments/assets/d20fe1ea-5208-4a8b-a2b9-02c1081de85b" />
 </p>
@@ -150,7 +150,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_126" src="https://github.com/user-attachments/assets/0acafdb6-a554-4cc3-b9b5-486722697303" />
 </p>
 <p>
-27 Now we can stop this ping activity in powershell by clicking Control c will and it will stop. 
+27 Now we can stop this ping activity in powershell by pressing Ctrl + C to stop it. 
 <p>
 <img <img width="1440" alt="ACN_127" src="https://github.com/user-attachments/assets/19be2a71-6ab7-419e-b611-dbac83a41e73" />
 </p>
@@ -190,13 +190,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_137" src="https://github.com/user-attachments/assets/95c04c75-0558-4e5c-a3a0-f796442eb15e" />
 </p>
 <p>
-38 Back in Powershell type "ssh labuser@<private IP address> and press enter. 
+38 Back in Powershell type "ssh labuser@<private IP address> and press Enter. 
 <p>
 <img <img width="1440" alt="ACN_138" src="https://github.com/user-attachments/assets/61801b9c-aaa8-4307-803d-cba3f8fe1edb" />
 </p>
 <p>
 39 This will generate ssh traffic. 
-   In Powershell you will also be asked "Are you syre you want to continue connecting."
+   In Powershell you will also be asked "Are you sure you want to continue connecting?"
 <p>
 <img <img width="1440" alt="ACN_139" src="https://github.com/user-attachments/assets/9ae66e10-8421-40e5-bf5a-a0a99492136d" />
 </p>
@@ -207,7 +207,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p> 
 41 Now type in the password for the Linux vm user and press enter 
-   (You wont be able to see it because it is encrypted but the txt is there.)
+   (You wont be able to see it because it is encrypted but the text is still being entered.)
 <p>
 <img <img width="1440" alt="ACN_141" src="https://github.com/user-attachments/assets/9c3de0d5-df01-496e-a34b-4ad793e5705b" />
 </p>
@@ -237,7 +237,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_146" src="https://github.com/user-attachments/assets/264554f5-0f51-47a0-86c2-4c64bc883a4f" />
 </p>
 <p>
-47 If you want to try this type "uname -a" and press enter. 
+47 If you want to try this type "uname -a" and press Enter. 
 <p>
 <img <img width="1440" alt="ACN_147" src="https://github.com/user-attachments/assets/671a0045-ac2b-4aa2-acf6-112da09731ba" />
 </p>
@@ -259,7 +259,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 52 Now just because everything is captured that doesn't mean you can see it.
    All of SSH traffic is encrypted. 
-   For example type "hi" (or something similar) aand press ent. 
+   For example type "hi" (or something similar) and press Enter. 
    Then click on the packet created from it. 
 <p>
 <img <img width="1440" alt="ACN_152" src="https://github.com/user-attachments/assets/80d3f500-01ca-4f59-bfa5-d6c6ceaf3246" />
@@ -281,7 +281,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_159" src="https://github.com/user-attachments/assets/b330c6f3-ba54-4bfb-b9b7-7f73955d7102" />
 </p>
 <p>
-60 You can also try the command "touch file.txt" an press enter. This will create a file on the linux machine. 
+60 You can also try the command "touch file.txt" an press Enter. This will create a file on the linux machine. 
 <p>
 <img <img width="1440" alt="ACN_160" src="https://github.com/user-attachments/assets/e108f79a-2ce1-462e-8525-83fe9ddacd5a" />
 </p>
@@ -302,7 +302,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 66 (This is another filter example.) Type in "tcp.port==22" and press enter.
-   THis will filter out all the traffic that uses tcp port 22. 
+   This will filter out all the traffic that uses tcp port 22. 
 <p>
 <img <img width="1440" alt="ACN_166" src="https://github.com/user-attachments/assets/f6750cbe-58f4-4472-860f-748d99f36a1a" />
 </p>
@@ -335,7 +335,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 73 A better image for Wireshark showing from the windows computer to the linux computer that the packet was sent 
-   (Essentially stating that there is no longer a connection.)
+   (Indicating that the connection has been terminated.)
 <p> 
 <img <img width="1440" alt="ACN_173" src="https://github.com/user-attachments/assets/d366005f-0749-4474-8d04-0e9cbc3485ce" />
 </p>
@@ -356,7 +356,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 77 Go back into Powershell and type "ipconfig /renew" and press enter. 
-   This command will drop the IP address that this cpomputer and automatically broadcast for a new one. 
+   This command will drop the IP address that this cpomputer will automatically broadcast for a new one. 
    The discover and offer didn't appear so we are going to try a different filter. 
 <p>
 <img <img width="1440" alt="ACN_177" src="https://github.com/user-attachments/assets/1025250a-25f6-4ada-ae07-355e0d7b26fd" />
@@ -378,7 +378,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_180" src="https://github.com/user-attachments/assets/073dc90a-07a0-45cf-b0a7-8a71db9b0883" />
 </p>
 <p>
-81 type "ipconfig /release" then underneath ipconfig /renw".     
+81 type "ipconfig /release" then underneath ipconfig /renew".     
 <p>
 <img <img width="1440" alt="ACN_181" src="https://github.com/user-attachments/assets/3850f32e-aa5b-495c-a2f4-0e0f3fe86d99" />
 </p>
@@ -393,7 +393,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1440" alt="ACN_195" src="https://github.com/user-attachments/assets/5eb12ef4-aaf1-41f6-b806-28eb8b55394d" />
 </p>
 <p>
-97 Name the file "dhcp.bat". Name it exactly this or this will not work. 
+97 Name the file "dhcp.bat". Be sure to name it exactly this, or it will not work. 
 <p>
 <img <img width="1440" alt="ACN_197" src="https://github.com/user-attachments/assets/051c7820-94fa-4799-9272-bb91588ea013" />
 </p>
