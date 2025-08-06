@@ -4,7 +4,7 @@
 
 <h1>Configuring Firewalls and Monitoring Common Network Protocols</h1>
 
-This this is a continuation of [Configuring-Active-Directory-within-Azure-VMs](https://github.com/zachwiseit/Configuring-Active-Directory-within-Azure-VMs/blob/main/README.md)
+This this is a continuation of [Network-Security-Groups-NSGs-and-Inspecting-Network-Protocols](https://github.com/zachwiseit/Network-Security-Groups-NSGs-and-Inspecting-Network-Protocols/blob/main/README.md)
 
 
 <h2>Next Steps and Observations</h2>
