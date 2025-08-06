@@ -2,8 +2,9 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>Configuring Firewalls and Monitoring Common Network Protocols</h1>
+
+This this is a continuation of [Configuring-Active-Directory-within-Azure-VMs](https://github.com/zachwiseit/Configuring-Active-Directory-within-Azure-VMs/blob/main/README.md)
 
 
 <h2>Next Steps and Observations</h2>
