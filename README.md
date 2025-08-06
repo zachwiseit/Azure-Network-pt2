@@ -460,50 +460,50 @@ The Non-authorative address is the one that dns.com resolves to.
 <img <img width="1440" alt="ACN_211" src="https://github.com/user-attachments/assets/18d693cc-dc08-474a-9eea-3846ab4a2896" />
 </p>
 <p>
-113 In Wireshark you can see the process for the retrieval of the Disney.com IP address.
+In Wireshark you can see the process for the retrieval of the Disney.com IP address.
 <p>
 <img <img width="1440" alt="ACN_213" src="https://github.com/user-attachments/assets/6b9d1f2b-e0dc-4466-988a-b5e29adaac1d" />
 </p>
 <p>
-114 Essentially DNS translates human readable domain names to IP addresses. This is an example of that. 
+Essentially DNS translates human readable domain names to IP addresses. This is an example of that. 
     Go to Microsoft Edge and paste the Disney IP address and press enter. 
 <p>
 <img <img width="1440" alt="ACN_214" src="https://github.com/user-attachments/assets/9e62ffe3-6f46-4ca3-a4c1-bae60e35d9cf" />
 </p>
 <p>
-115 You will get a 404 error but it is still disney's IP address and they added a funny way to state that it is theirs. 
+You will get a 404 error but it is still disney's IP address and they added a funny way to state that it is theirs. 
     The error is normal because most sites can’t be reached by putting in their IP address for security reasons. 
 <p>
 <img <img width="1440" alt="ACN_215" src="https://github.com/user-attachments/assets/6e4424e2-dfec-4e46-ab17-24f366253145" />
 </p>
 <p>
-116 Lets try this again except with Pixar. 
+Lets try this again except with Pixar. 
     Use nslookup in Powershell. 
 <p>
 <img <img width="1440" alt="ACN_216" src="https://github.com/user-attachments/assets/a29a4020-5436-40b7-b56e-48edc8a36156" />
 </p>
 <p>
-117 In Wireshark again you will notice the activity on the back end. 
+In Wireshark again you will notice the activity on the back end. 
 <p>
 <img <img width="1440" alt="ACN_217" src="https://github.com/user-attachments/assets/c1bdb30a-d29e-4156-bde0-e71d3e8db891" />
 </p>
 <p>
-118 These are the address for Pixar. Copy the first one. 
+These are the address for Pixar. Copy the first one. 
 <p>
 <img <img width="1440" alt="ACN_218" src="https://github.com/user-attachments/assets/475d7679-2e9f-44a1-b1b2-ee832c396746" />
 </p>
 <p>
-119 Paste it in the browser and search. 
+Paste it in the browser and search. 
 <p>
 <img <img width="1440" alt="ACN_219" src="https://github.com/user-attachments/assets/0d8de591-3cf6-45d9-8232-6cbf9a7edc07" />
 </p>
 <p>
-120 You should get a error message because as before it's unusual gain access to a site by putting in their IP Address. 
+You should get a error message because as before it's unusual gain access to a site by putting in their IP Address. 
 <p>
 <img <img width="1440" alt="ACN_220" src="https://github.com/user-attachments/assets/f72e1ace-1835-4287-a931-62f5b10a0539" />
 </p>
 <p>
-121 Last but not least we are going to observe RDP(Remote Desktop Protocol) traffic. 
+Last but not least we are going to observe RDP(Remote Desktop Protocol) traffic. 
     Essentially what we have been doing this entire time is an RDP as we have been connecting from our 
     computer to gain access to another desktop GUI.
     Go back to Wireshark and filter for "tcp.port==3389".
@@ -511,13 +511,13 @@ The Non-authorative address is the one that dns.com resolves to.
 <img <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/76773f5c-a007-4b0b-bc69-5c94342a9a36" />
 </p>
 <p>
-122 There is a lot of spam initially this is because RDP is constantly streaming an image from the server to your local machine. 
+There is a lot of spam initially this is because RDP is constantly streaming an image from the server to your local machine. 
     Regardless if you press a key, move your mouse, or do nothing at all its still streaming that desktop screen. 
 <p>
 <img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 15 32 PM" src="https://github.com/user-attachments/assets/4eb0c31a-5c48-482e-be40-bfef02c9f816" />
 </p>
 <p>
-123 Its interesting to get a glimps of what is going on in the back end of our VM's.
+Its interesting to get a glimps of what is going on in the back end of our VM's.
 <p>
 <img <img width="1440" height="900" alt="Screenshot 2025-06-04 at 2 17 09 PM" src="https://github.com/user-attachments/assets/5f18677a-1f5f-4a8a-a4d7-728d10a835aa" />
 </p>
